@@ -6,9 +6,10 @@
 
 import sys
 
-def HelloSys():
+def HelloSys(): #With the len() function I can check how many arguments 
+		#the commanline has, then it can decide what it's gonna print.
 	if len(sys.argv) > 1:
-		print("Hello ",sys.argv[1])
+		print("Hello",sys.argv[1])
 	else:
 		print("Hello World")
 
